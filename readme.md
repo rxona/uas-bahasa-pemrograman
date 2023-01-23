@@ -1,4 +1,4 @@
-###### 1. Array
+#### 1. Array
 
 Array adalah tipe data yang digunakan untuk menyimpan sekumpulan nilai. Nilai-nilai ini dapat diakses dengan menggunakan indeks, yang dimulai dari 0.
 Array pada JavaScript:
@@ -23,7 +23,7 @@ kota = [...kota, ...kotaDiSumatera]; // ['Bekasi', 'Jakarta', 'Bogor', 'Padang',
 ```
 
 - **Pencarian Data**
-  Menggunakan metode indexOf() untuk mencari data dan mengembalikan index dari data yang dicari. Contoh:
+  Menggunakan metode `indexOf()` untuk mencari data dan mengembalikan index dari data yang dicari. Contoh:
 
 ```javascript
 let indexBekasi = myArray.indexOf("Bogor");
@@ -31,7 +31,7 @@ console.log(indexBekasi); // 2
 ```
 
 - **Penambahan index dan data**
-  Menggunakan metode push() untuk menambahkan elemen baru di akhir array. Contohnya:
+  Menggunakan metode `push()` untuk menambahkan elemen baru di akhir array. Contohnya:
 
 ```javascript
 kota.push("Semarang"); // kota sekarang adalah ['Bekasi', 'Jakarta', 'Bogor', 'Padang', 'Medan', 'Semarang']
@@ -43,7 +43,7 @@ Untuk menambahkan elemen baru di awal array dapat menggunakan metode `unshift()`
 kota.unshift("Tanggerang"); // kota sekarang adalah ['Tanggerang', 'Bekasi', 'Jakarta', 'Bogor', 'Padang', 'Medan', 'Semarang']
 ```
 
-###### 2. Pointer
+#### 2. Pointer
 
 Pointer adalah variabel yang menyimpan alamat suatu objek dalam memori komputer. Objek ini bisa berupa variabel, array, atau struktur data lainnya. Pointer memungkinkan kita untuk mengakses dan mengubah nilai dari objek tersebut dengan menggunakan alamat memori yang disimpan di dalam pointer.
 
@@ -62,7 +62,7 @@ Pointer digunakan dalam berbagai situasi, beberapa diantaranya :
 5. Dalam sistem operasi, pointer digunakan untuk mengakses data dalam kernel atau device driver.
 6. Pointer juga digunakan dalam pemrograman paralel untuk mengakses data yang digunakan oleh beberapa thread atau proses.
 
-###### Function
+#### 3. Function
 
 Function adalah sebuah blok kode yang dapat digunakan kembali dalam program. Dengan menggunakan function, kode dapat diorganisir dengan baik dan dapat digunakan kembali tanpa perlu menulis ulang kode yang sama.
 
